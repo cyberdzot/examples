@@ -1,4 +1,6 @@
-# Некоторые фишки github
+# Некоторые фишки github и markdown
+
+Ссылка на картинку из репозитория github:
 
 ```md
 ![Иллюстрация к проекту](https://github.com/jon/coolproject/raw/master/image/image.png)
