@@ -1,0 +1,21 @@
+{
+    "editor.fontFamily": "JetBrains Mono",      // замечательный шрифт для кодинга
+    "editor.smoothScrolling": true,             // плавный скролл в редакторе
+    "workbench.list.smoothScrolling": true,     // плавный скролл в списках и деревьях
+    "terminal.integrated.smoothScrolling": true, // плавный скролл в терминале
+    "editor.cursorSmoothCaretAnimation": "on",  // плавное движение курсора при печати
+    "editor.cursorBlinking": "phase",           // стиль анимации курсора
+    "editor.minimap.enabled": false,            // выкл карту кода(справа)
+
+    "editor.hover.enabled": true,   // подсказка при наведении на код
+    "editor.hover.hidingDelay": 0,  // время жизни подсказки
+
+    "editor.tabSize": 4,            // количество пробелов для кастомной табуляции
+    "editor.formatOnSave": true,    // форматировать код при сейве
+    "files.autoSave": "afterDelay", // автосейв
+
+    "terminal.external.windowsExec": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", // терминал
+
+    "editor.detectIndentation": false,  // отключить адаптацию к табуляции чужого кода
+    "editor.wordWrap": "on"             // перенос строк, если не вмещаются по горизонтали
+}
