@@ -11,7 +11,7 @@
     "editor.hover.hidingDelay": 0,  // время жизни подсказки
 
     "editor.tabSize": 4,            // количество пробелов для кастомной табуляции
-    "editor.formatOnSave": true,    // форматировать код при сейве
+    "editor.formatOnSave": true,    // форматировать код при ручном сейве
     "files.autoSave": "afterDelay", // автосейв
 
     "terminal.external.windowsExec": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", // терминал
