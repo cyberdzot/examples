@@ -1,21 +1,25 @@
 {
-    "editor.fontFamily": "JetBrains Mono",      // замечательный шрифт для кодинга
-    "editor.smoothScrolling": true,             // плавный скролл в редакторе
-    "workbench.list.smoothScrolling": true,     // плавный скролл в списках и деревьях
-    "terminal.integrated.smoothScrolling": true, // плавный скролл в терминале
-    "editor.cursorSmoothCaretAnimation": "on",  // плавное движение курсора при печати
-    "editor.cursorBlinking": "phase",           // стиль анимации курсора
-    "editor.minimap.enabled": false,            // выкл карту кода(справа)
+  "editor.fontFamily": "JetBrains Mono", // замечательный шрифт для кодинга(прежде скачать нужно)
+  "editor.smoothScrolling": true, // плавный скролл в редакторе
+  "workbench.list.smoothScrolling": true, // плавный скролл в списках и деревьях
+  "workbench.activityBar.location": "top", // более минимизированный вид
+  "terminal.integrated.smoothScrolling": true, // плавный скролл в терминале
+  "editor.cursorSmoothCaretAnimation": "on", // плавное движение курсора при печати
+  "editor.cursorBlinking": "phase", // стиль анимации курсора
+  "editor.minimap.enabled": false, // выкл карту кода(справа)
+  "editor.folding": false, // отключить свёртку кода(добавляя больше пространства)
 
-    "editor.hover.enabled": true,   // подсказка при наведении на код
-    "editor.hover.hidingDelay": 0,  // время жизни подсказки
+  "editor.hover.enabled": true, // подсказка при наведении на код
+  "editor.hover.hidingDelay": 0, // время показа подсказки
 
-    "editor.tabSize": 4,            // количество пробелов для кастомной табуляции
-    "editor.formatOnSave": true,    // форматировать код при ручном сейве
-    "files.autoSave": "afterDelay", // автосейв
+  "editor.tabSize": 4, // количество пробелов для кастомной табуляции
+  "editor.formatOnSave": true, // форматировать код при ручном сейве
+  "files.autoSave": "afterDelay", // автосейв
+  "editor.linkedEditing": true, // авто переименование парных тегов(html)
 
-    "terminal.external.windowsExec": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", // терминал
+  "security.workspace.trust.enabled": false, // отключить проверку доверенности пользователя к папке/файлу
+  "terminal.external.windowsExec": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", // терминал
 
-    "editor.detectIndentation": false,  // отключить адаптацию к табуляции чужого кода
-    "editor.wordWrap": "on"             // перенос строк, если не вмещаются по горизонтали
+  "editor.detectIndentation": false, // отключить адаптацию к табуляции чужого кода
+  "editor.wordWrap": "on" // перенос строк, если не вмещаются по горизонтали
 }
