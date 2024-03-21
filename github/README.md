@@ -2,18 +2,24 @@
 
 Ссылка на картинку из репозитория github:
 
+![test_image](./img/test.png)
+
 ```md
-![Иллюстрация к проекту](https://github.com/jon/coolproject/raw/master/image/image.png)
+- Иллюстрация к проекту со своей репы
+![alt](./img/test.png)
 
-![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
+- Иллюстрация к проекту с другой репы
+![alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
 
-{username} — ваш ник на ГитХабе;
-{repository} — репозиторий где хранятся картинки;
-{branch} — ветка репозитория;
-{path} — путь к месту нахождения картинки.
+{username} — username цели;
+{repository} — название репы где хранится картинка;
+{branch} — ветка репы;
+{path} — путь к картинке(если она не в корне репы).
 ```
 
-## CMD
+## GIT CMD
+
+`git update-git-for-windows` проверить обновления git для Windows
 
 `git remote -v` проверить текущий путь к удалённому репо
 
@@ -36,3 +42,7 @@
 `git commit --amend -m [new_text]` изменение описания последнего коммита
 
 `git revert [hash_commit]` - отмена коммита с последующим сохранением в журнале
+
+## VERSION
+
+[Семантическое версионирование](https://semver.org/lang/ru/)
