@@ -41,7 +41,15 @@
 
 `git commit --amend -m [new_text]` изменение описания последнего коммита
 
+`git push origin [branch_name]` - пуш изменений выбранной ветки
+
 `git revert [hash_commit]` - отмена коммита с последующим сохранением в журнале
+
+`git branch [branch_name]` - создать новую ветку, `-d` удалить ветку(`-D` 100% удаление), `-m` переименовать ветку
+
+`git checkout [branch_name]` - переключиться на другую ветку
+
+`git merge [merged_branch_name]` - слить изменения
 
 ## VERSION
 
